@@ -1,0 +1,181 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-image {
+    /* Set the background image properties */
+    background-image: url('C:\Users\everr\OneDrive - Everrenew Energy Private Limited\WEB DESIGN\rcc project\img\Untitled design.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Set the height of the container */
+    height: 100vh;
+
+    /* Center the content inside the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Optional: Add some styling to your content */
+    color: #fff;
+    text-align: center;
+}
+.main-nav {
+    background-color:#00FA9A;
+    color: black;
+     WIDTH:100%;
+      padding: 8px;
+}
+
+  .header {
+    padding: 5px;
+    text-align: RIGHT;
+    background: BLACK;
+    color: white;
+  
+  }
+ 
+
+
+/* styles.css */
+
+/* Style the custom table */
+.custom-table
+{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1;
+    background-color: #f8f9fa;
+
+    
+}
+
+.custom-table th 
+{
+    background-color: black;
+    color: #ffffff;
+}
+
+.custom-table td
+{
+    border: 1px solid #dddddd;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+nav
+{
+    padding: 5 px;
+    background-color:#3CB371;
+    overflow: hidden;
+    color: WHITE;
+   margin-top: 10px;
+   font-size: 15PX;
+  line-height: 20px;
+  font-weight: bold;
+   
+   
+  }
+    nav a{
+        float: left;
+        display: block;
+        color: WHITE;
+        text-align: CENTER;
+        text-decoration: none;
+        height: 100px;
+    }
+     
+  /* CSS for customizing icons */
+.custom-icon {
+    font-size: 70px; /* Adjust size as needed */
+   
+    margin-right: 10px; /* Add some spacing between icons */
+}
+
+/* CSS for adjusting specific icons */
+.icon-container .fas.fa-bell {
+    color: red; /* Adjust color for the heart icon */
+}
+
+.icon-container .fas.fa-search {
+    
+    color: yellow;
+}
+   .body {
+            font-family: Arial, sans-serif;
+            margin: 10;
+            padding: 10;
+            box-sizing: content-box;
+        }
+        .container {
+            display: inline-table;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 300px;
+            margin: auto;
+            padding: 0px;
+        }
+        .box {
+            width: calc(100% - 0px);
+            margin-bottom: 20 px;
+            background-color: white;
+            padding: 10px;
+            display: flex
+        .icon {
+            flex: 0 0 50px;
+            margin-right: 20px;
+        }
+        .box-content {
+            flex: 1;
+        }
+        /* Default styles */
+/* Add your default CSS styles here */
+
+/* Media query for small devices (e.g., smartphones) */
+@media only screen and (max-width: 767px) {
+  /* CSS rules for small devices */
+  /* Adjust layout, font sizes, etc. for smaller screens */
+  .navbar {
+    /* Example: Reduce padding on the navbar for small screens */
+    padding: 5px;
+  }
+  .jumbotron {
+    /* Example: Increase font size for headings in the jumbotron */
+    font-size: 24px;
+  }
+}
+
+/* Media query for medium devices (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules for medium devices */
+  /* Adjust layout, font sizes, etc. for medium-sized screens */
+  .navbar {
+    /* Example: Increase padding on the navbar for medium screens */
+    padding: 15px;
+  }
+  .jumbotron {
+    /* Example: Decrease font size for headings in the jumbotron */
+    font-size: 20px;
+  }
+}
+
+/* Media query for large devices (e.g., desktops) */
+@media only screen and (min-width: 992px) {
+  /* CSS rules for large devices */
+  /* Adjust layout, font sizes, etc. for larger screens */
+  .navbar {
+    /* Example: Restore default padding on the navbar for large screens */
+    padding: 20px;
+  }
+  .jumbotron {
+    /* Example: Restore default font size for headings in the jumbotron */
+    font-size: 36px;
+  }
+}
